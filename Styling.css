@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    color: white;
+}
+
+#left_alignment_body {
+    text-align: left;
+    color: black;
+}
+
+.bg-image1 {
+    background-image: url("Blue-Brown.png");
+}
+
+.bg-image2 {
+    background-image: url("Blue Shades.png");
+}
+
+.bg-image3 {
+    background-image: url("If I Can't Have You Cover.png");
+}
+
+.bg-image4 {
+    background-image: url("Green\ Shades.png");
+}
+
+.login_div1 , .login_div2 {
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+    color: black;
+    margin-left: 515px;;
+}
+
+#player_name_submit {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-style: initial;
+}
+
+#children_image {
+    height: 550px;
+    margin-left: 780px;
+}
+
+#thought {
+    font-size: 30px;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#navigation_bar {
+    text-align: right;
+}
+
+#mean_line {
+    font-size: 20px;
+}
+
+#div_container {
+    width: 750px;
+    background: white;
+	padding: 10px;
+    margin-left: 375px;
+	float: none;
+	border-radius: 15px;
+    color: black;
+    border-color: rgb(255, 109, 255);
+    border-width: 15px;
+    margin-bottom: 20px;
+}
+
+#warning_msg_hidden {
+    visibility: hidden;
+}
+
+#sign_up_div {
+    width: 750px;
+    background: white;
+	padding: 10px;
+    margin-left: 375px;
+	float: none;
+	border-radius: 15px;
+    color: black;
+    border-color: rgb(255, 109, 255);
+    border-width: 15px;
+    margin-bottom: 20px;
+}
+
+.sign_up_span {
+    margin-bottom: 15px;
+}
+
+#log_in_btn , #sign_up_btn {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-right: 15px
+}
+
+#send_btn {
+    width: 30%;
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+}
+
+#number {
+	width: 60%;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+

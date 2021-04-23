@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Maths Quiz :: Home Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Styling.css">
+        <script src="Join.js"></script>
+    </head>
+    <body class="bg-image2">
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Maths Quiz</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" id="navigation_bar">
+                    <li><a href="Home.index.html">Home</a></li>
+                    <li><a href="Log In.index.html">Sign Up</a></li>
+                    <li><a href="Join.index.html">Take Quiz</a></li>
+                </ul>
+            </div>
+         </nav>
+        <h1>Join The <br> Quiz</h1>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h3>Player 1 Login</h3>
+            <p>Enter Player 1' Name Below</p>
+            <input type="text" id="player1_name" placeholder="Player 1 Name">
+            <br>
+        </div>
+
+        <br><br>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <h3>Player 2 Login</h3>
+            <p>Enter Player 2' Name Below</p>
+            <input type="text" id="player2_name" placeholder="Player 2 Name">
+            <br>
+        </div>
+
+        <br>
+        
+        <div id="btn_div">
+            <h4 id="warning_msg_hidden" style="color: rgb(229, 255, 0);">PLAYER NAME IS REQUIRED!!</h4>
+            <button class="btn btn-success" type="submit" id="player_name_submit" onclick="addUser()">Submit Information</button>
+        </div>
+    </body>
+</html>
